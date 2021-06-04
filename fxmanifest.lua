@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-name 'fivem-ts-boilerplate'
+name 'onlySpectateMode'
 author 'DreamingCodes'
 url 'https://dreaming.codes'
 
@@ -9,11 +9,6 @@ url 'https://dreaming.codes'
 --dependency 'webpack'
 
 --webpack_config 'webpack.config.js'
-
-files{
-  "configs/config.json5",
-  "configs/locale.json5"
-}
 
 client_scripts {
   'dist/client.js'

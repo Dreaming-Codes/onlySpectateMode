@@ -1,6 +1,7 @@
-import * as JSON5 from "json5";
+import {ESX} from "./esx";
 
-export const config = JSON5.parse(LoadResourceFile(GetCurrentResourceName(), "configs/config.json5"));
-export const locale = JSON5.parse(LoadResourceFile(GetCurrentResourceName(), "configs/locale.json5"));
+ESX.RegisterServerCallback("onlySpectateMode:immaOnlySpectator", (source, cb) =>{
+    cb(IsPlayerAceAllowed(source, "spectator"))
+})
 
-console.log("fivem-ts-boilerplate STARTED")
+console.log("onlySpectateMode STARTED")

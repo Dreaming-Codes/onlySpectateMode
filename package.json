@@ -1,5 +1,5 @@
 {
-  "name": "fivem-ts-boilerplate",
+  "name": "only-spectate-mode",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -16,7 +16,6 @@
     "webpack-cli": "^4.7.0"
   },
   "dependencies": {
-    "fivem-js": "^1.5.2",
-    "json5": "^2.2.0"
+    "fivem-esx-js": "^0.1.12"
   }
 }
